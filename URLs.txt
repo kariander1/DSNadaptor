@@ -1,0 +1,4 @@
+https://tlmweb.jpl.nasa.gov/cam/identity/getCookieNameForToken
+https://tlmweb.jpl.nasa.gov/cam/identity/authenticate
+https://tlmweb.jpl.nasa.gov/ttcws/147/Gif_spil1/query/sfdus?dataTypes=dsn_turbo_decd_crc_pass&timeType=ERT&startTime=2019%2F02%2F05-16%3A22%3A05&endTime=2019%2F02%2F05-16%3A22%3A25&dataFrom=cached2rt&queryName=Shai_TEST&requesterName=Shai
+https://tlmweb.jpl.nasa.gov/ttcws/147/Gif_spil1/query/sfdus?dataTypes=dsn_turbo_decd_crc_pass&timeType=ERT&startTime=2019%2F02%2F05-16%3A22%3A25&endTime=FOREVER&dataFrom=cached2rt&requesterName=Shai&ancillary=STATUS

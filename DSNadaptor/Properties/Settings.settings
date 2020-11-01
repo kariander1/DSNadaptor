@@ -1,0 +1,145 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DSNadaptor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TLMwebServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;TLM_SERVER_URL&gt;</Value>
+    </Setting>
+    <Setting Name="SpacecraftID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SPACECRAFT_ID&gt;</Value>
+    </Setting>
+    <Setting Name="OpenAM_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;AM_USERNAME&gt;</Value>
+    </Setting>
+    <Setting Name="OpenAM_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;AM_PASSWORD&gt;</Value>
+    </Setting>
+    <Setting Name="UseAuthentication" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="udpDestIP" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;DESTINATION_IP_1&lt;/string&gt;
+  &lt;string&gt;DESTINATION_IP_2&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="udpPort" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;UDP_PORT&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="BaseURI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://&lt;server&gt;/&lt;rel_address&gt;</Value>
+    </Setting>
+    <Setting Name="RequestRetries" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="RequestInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">720</Value>
+    </Setting>
+    <Setting Name="ConnectionInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="RequestTimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="deliveryDelay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="calcDelay" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ByteToDelayRatio" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="SFDUsync" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFDU_SYNC_WORD&gt;</Value>
+    </Setting>
+    <Setting Name="ProxyServerUsage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ProxyServerAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;PROXY_IP&gt;</Value>
+    </Setting>
+    <Setting Name="ProxyServerPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9999</Value>
+    </Setting>
+    <Setting Name="OpenAM_CookieRetrievalURI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;OPEN_AM_COOKIE&gt;</Value>
+    </Setting>
+    <Setting Name="OpenAM_AuthenticationURI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;OPEN_AM_AUTH_URL&gt;</Value>
+    </Setting>
+    <Setting Name="LengthAttributeOffset" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="LengthAttributeSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="PVLblocks" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;&amp;lt;PVL_BLOCKS_DELIMITERS&amp;gt;&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="PVLdataStart" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;STATUS_BLOCK_START&gt;</Value>
+    </Setting>
+    <Setting Name="DebugLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NONE</Value>
+    </Setting>
+    <Setting Name="DebugFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\DSNdebug</Value>
+    </Setting>
+    <Setting Name="CookieDomainName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;COOKIE_DOMAIN_NAME&gt;</Value>
+    </Setting>
+    <Setting Name="CookieDefaultName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;COOKIE_DEFAULT_NAME&gt;</Value>
+    </Setting>
+    <Setting Name="TokenValidity" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="RetryInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="BufferSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1024</Value>
+    </Setting>
+    <Setting Name="QueryServers" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;&amp;lt;QUERY_SERVER&amp;gt;&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ReadStreamInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="sftpIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFTP_SERVER_IP&gt;</Value>
+    </Setting>
+    <Setting Name="sftpUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFTP_USER&gt;</Value>
+    </Setting>
+    <Setting Name="sftpDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFTP_DIR&gt;</Value>
+    </Setting>
+    <Setting Name="sftpKetFileDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFTP_KET_FILE&gt;</Value>
+    </Setting>
+    <Setting Name="sftpFileHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;SFTP_FILE_HEADER&gt;</Value>
+    </Setting>
+    <Setting Name="sftpListInterval" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1800000</Value>
+    </Setting>
+    <Setting Name="LogFileDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\</Value>
+    </Setting>
+    <Setting Name="OpenAM_server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;server&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
